@@ -17,7 +17,7 @@
         });
         unsortedList.innerHTML = listOfElements;
     });
-    xhr.open('GET', '../data/employees.json', true);
+    xhr.open('GET', './data/employees.json', true);
     xhr.send();
 
 })();
